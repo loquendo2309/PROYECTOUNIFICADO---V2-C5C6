@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px; /* Relleno interior */
+    text-align: center;
+}
+
+/* Modelo de caja en las tarjetas de proyecto */
+.tarjeta-proyecto {
+    background-color: #fff;
+    border: 1px solid #ddd;  /* Borde */
+    padding: 15px;           /* Relleno */
+    margin-bottom: 20px;     /* Margen exterior para separar las tarjetas */
+}
