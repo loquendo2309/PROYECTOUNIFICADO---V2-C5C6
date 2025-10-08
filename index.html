@@ -69,29 +69,30 @@
       <!-- Sección Ejemplos con API -->
     <section id="api" class="seccion">
         <div class="ejemplo-api">
-            <h2>Ejemplo 1: Obtener Pokémon (Promesas)</h2>
-            <input type="number" id="pokemonId" value="25" min="1">
-            <button class="boton" onclick="obtenerPokemon()">Buscar Pokémon</button>
-            <div id="pokemonResult" class="resultado-api"></div>
+            <h2>Ejemplo 1: Obtener Personaje Aleatorio (Promesas)</h2>
+            <input type="number" id="personajeID" value="1" min="1">
+            <button class="boton" onclick="obtenerPersonajeAleatoria()">Buscar Personaje</button>
+            <div id="simpsonQuoteResult" class="resultado-api"></div>
         </div>
 
         <div class="ejemplo-api">
-            <h2>Ejemplo 2: Cadena de Evoluciones (Async/Await)</h2>
-            <button class="boton" onclick="obtenerEvoluciones()">Mostrar Evoluciones</button>
-            <div id="evolucionesResult" class="resultado-api"></div>
+            <h2>Ejemplo 2: Obtener Varios Personajes (Async/Await)</h2>
+            <input type="number" id="numCitas" value="5" min="1" max="10">
+            <button class="boton" onclick="obtenerVariasCitas()">Mostrar Personajes</button>
+            <div id="simpsonQuotesResult" class="resultado-api"></div>
         </div>
 
         <div class="ejemplo-api">
-            <h2>Ejemplo 3: Pokémon Aleatorio (Fetch + Then)</h2>
-            <button class="boton" onclick="pokemonAleatorio()">Generar Aleatorio</button>
-            <div id="randomPokemon" class="resultado-api"></div>
+            <h2>Ejemplo 3: Otro Personaje Aleatorio (Fetch + Then)</h2>
+            <button class="boton" onclick="otraCitaAleatoria()">Generar Otro Personaje</button>
+            <div id="randomSimpsonQuote" class="resultado-api"></div>
         </div>
 
         <div class="ejemplo-api">
-            <h2>Ejemplo 4: Obtener Pokémon por Nombre (Async/Await)</h2>
-            <input type="text" id="pokemonNombre" placeholder="Nombre del Pokémon" value="pikachu">
-            <button class="boton" onclick="pokemonPorNombre()">Buscar Pokémon</button>
-            <div id="pokemonNameResult" class="resultado-api"></div>
+            <h2>Ejemplo 4: Buscar Personaje por Nombre (Async/Await)</h2>
+            <input type="text" id="simpsonCharacterName" placeholder="Nombre del Personaje" value="Homer">
+            <button class="boton" onclick="citaPorPersonaje()">Buscar Personaje</button>
+            <div id="simpsonCharacterResult" class="resultado-api"></div>
         </div>
     </section>
 

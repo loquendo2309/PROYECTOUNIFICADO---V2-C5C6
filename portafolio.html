@@ -6,6 +6,7 @@
     <title>Mi Portafolio - Pedro Roda</title>
     <link rel="stylesheet" href="stylesportafolio.css">
 </head>
+
 <body>
     <header>
         <h1>Pedro Roda</h1>
@@ -23,7 +24,8 @@
     <main>
         <section id="sobre-mi">
             <h2>Sobre Mí</h2>
-            <p>Aquí va una breve descripción sobre ti, tus pasiones en la tecnología y lo que buscas profesionalmente.</p>
+            <p>Aquí va una breve descripción sobre ti, tus pasiones en la tecnología y lo que buscas profesionalmente.
+            </p>
         </section>
 
         <section id="proyectos">
@@ -37,10 +39,22 @@
                 <p>Descripción del segundo proyecto. Una exploración de una nueva tecnología o framework.</p>
             </article>
         </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="formulario-contacto">
+                <label for="email">Tu Email:</label>
+                <input type="email" id="email" required>
+                <button type="submit">Enviar</button>
+            </form>index
+            <p id="mensaje-feedback"></p>
+        </section>
+
     </main>
 
     <footer>
         <p>&copy; 2025 - Pedro Roda</p>
     </footer>
+
+     <script src="scriptsportafolio.js"></script>
 </body>
 </html>
