@@ -49,10 +49,11 @@ function humus(factor) {
     ingrediente(1, "lata", "garbanzos");
     ingrediente(0.5, "taza", "tahini");
     ingrediente(2, "cucharadas", "limón");
+      ingrediente(3, "cucharillas", "gengibre");
 }
 
 function prepararHummus() {
-    humus(4);
+    humus(6);
 }
 
 // 5. Scope
